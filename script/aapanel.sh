@@ -1,6 +1,6 @@
 #! /bin/bash
 # By Aaron
-# https://github.com/AaronYES/aaPanel
+# https://github.com/Github-Aiko/aaPanel
 
 #彩色
 red(){
@@ -20,11 +20,11 @@ purple(){
 }
 
 function English(){
-wget https://raw.githubusercontent.com/AaronYES/aaPanel/main/script/aapanel-en.sh  -O aapanel-en.sh && chmod +x aapanel-en.sh && clear && ./aapanel-en.sh
+wget https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel-en.sh  -O aapanel-en.sh && chmod +x aapanel-en.sh && clear && ./aapanel-en.sh
 }
 
 function Chinese(){
-wget https://ghproxy.com/https://raw.githubusercontent.com/AaronYES/aaPanel/main/script/aapanel-zh.sh  -O aapanel-zh.sh && chmod +x aapanel-zh.sh && clear && ./aapanel-zh.sh
+wget https://ghproxy.com/https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel-zh.sh  -O aapanel-zh.sh && chmod +x aapanel-zh.sh && clear && ./aapanel-zh.sh
 }
 
 # 菜单
@@ -32,7 +32,7 @@ function start_menu(){
     clear
     purple " Thank you for using the aaPanel tool."
     purple " 请选择您的语言｜Please select your language"
-    purple " GitHub：https://github.com/AaronYES/aapanel"
+    purple " GitHub：https://github.com/Github-Aiko/aapanel"
     yellow " ————————————————————————————————————————————————"
     green " 1. English"
     green " 2. 简体中文"
