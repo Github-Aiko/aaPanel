@@ -39,7 +39,7 @@ wget -O "/root/LinuxPanel_EN-6.8.23.zip" "https://github.com/Github-Aiko/aapanel
 red "下载完成,正在降级."
 unzip LinuxPanel_EN-6.8.23.zip
 cd /root/panel
-wget -O "/root/panel/downgrade.sh" "https://ghproxy.com/https://raw.githubusercontent.com/Github-Aiko/aapanel/main/script/downgrade.sh" 
+wget -O "/root/panel/downgrade.sh" "https://raw.githubusercontent.com/Github-Aiko/aapanel/main/script/downgrade.sh" 
 bash "/root/panel/downgrade.sh"
 red "降级成功."
 rm /root/LinuxPanel_EN-6.8.23.zip /root/panel/ -rf
@@ -68,7 +68,7 @@ chattr +i /www/server/panel/data/plugin.json
 chattr -i /www/server/panel/data/repair.json
 rm /www/server/panel/data/repair.json
 cd /www/server/panel/data
-wget https://ghproxy.com/https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/resource/repair.json
+wget https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/resource/repair.json
 chattr +i /www/server/panel/data/repair.json
 red "开心成功."
 }

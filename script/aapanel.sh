@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel-e
 }
 
 function Chinese(){
-wget https://ghproxy.com/https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel-zh.sh  -O aapanel-zh.sh && chmod +x aapanel-zh.sh && clear && ./aapanel-zh.sh
+wget https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel-zh.sh  -O aapanel-zh.sh && chmod +x aapanel-zh.sh && clear && ./aapanel-zh.sh
 }
 
 # 菜单

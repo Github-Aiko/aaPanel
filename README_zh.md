@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel.s
 ~~~
 ### 国内VPS
 ~~~
-wget https://ghproxy.com/https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel.sh  -O aapanel.sh && chmod +x aapanel.sh && clear && ./aapanel.sh
+wget https://raw.githubusercontent.com/Github-Aiko/aaPanel/main/script/aapanel.sh  -O aapanel.sh && chmod +x aapanel.sh && clear && ./aapanel.sh
 ~~~
 
 ## 更新日志
