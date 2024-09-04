@@ -32,7 +32,7 @@ bash "/root/bt-install.sh"
 }
 
 function downgrade-aapanel(){
-wget -O "/root/LinuxPanel_EN-6.8.23.zip" "https://github.com/Github-Aiko/aapanel/releases/download/1.0/LinuxPanel_EN-6.8.23.zip"
+wget -O "/root/LinuxPanel_EN-6.8.23.zip" "https://github.com/Github-Aiko/aapanel/releases/download/v1.0/LinuxPanel_EN-6.8.23.zip"
 red "Download complete, downgrading."
 unzip LinuxPanel_EN-6.8.23.zip
 cd /root/panel
@@ -43,7 +43,7 @@ rm /root/LinuxPanel_EN-6.8.23.zip /root/panel/ -rf
 }
 
 function downgrade-bt(){
-wget -O "/root/LinuxPanel-7.7.0.zip" "https://github.com/Github-Aiko/aaPanel/releases/download/1.0/LinuxPanel-7.7.0.zip"
+wget -O "/root/LinuxPanel-7.7.0.zip" "https://github.com/Github-Aiko/aaPanel/releases/download/v1.0/LinuxPanel-7.7.0.zip"
 blue "Download complete, downgrading."
 unzip LinuxPanel-7.7.0.zip
 cd /root/panel
@@ -91,7 +91,7 @@ chattr +i -R /www/server/panel/logs/request
 }
 
 function sinicization-gacjie(){
-wget -O /root/chinese.zip https://github.com/Github-Aiko/aaPanel/releases/download/1.0/aapanel_chinese-6.8.21.zip
+wget -O /root/chinese.zip https://github.com/Github-Aiko/aaPanel/releases/download/v1.0/aapanel_chinese-6.8.21.zip
 unzip -o /root/chinese.zip -d /www/server/
 rm /root/chinese.zip -rf
 /etc/init.d/bt restart
